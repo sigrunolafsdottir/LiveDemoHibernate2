@@ -23,6 +23,12 @@ public class Book {
         this.title = title;
     }
 
+    public Book(String title, String author ) {
+        this.author = author;
+        this.title = title;
+    }
+
+
     @Override
     public String toString() {
         return "Book{" +
